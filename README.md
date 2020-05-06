@@ -1,12 +1,12 @@
-#monzo-web-scraper-challenge
+# monzo-web-scraper-challenge
 
 challenge for interview
 
-#[info]
+# info
 
-A basic web scraper to get links from html pages
+A basic web scraper to get links from html pages for monzo interview
 
-#[requirements]
+# requirements
 
 python3 
 python3-pip
@@ -14,7 +14,7 @@ python3-pip
 [install]
 `pip3 install --user -r requirements.txt`
 
-#[usage]
+# usage
 ```
 usage: a simple web crawler [-h] [--url URL]
                             [--log {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
@@ -26,7 +26,7 @@ optional arguments:
                         Set the logging level
 ```
 
-#[run]
+# run
 `python3 run.py -u https://monzo.com` 
 or
 ```
@@ -35,5 +35,5 @@ docker run simple_scraper
 ```
 
 
-#[testing]
+# testing
 `nosetests tests.py --logging-level=INFO`
